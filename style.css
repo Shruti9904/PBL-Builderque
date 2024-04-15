@@ -1,0 +1,148 @@
+body{
+    font-family: Arial,Helvetica,sans-serif;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85px;   
+    /* gap: 50px;  */
+    /* background-color: rgb(219, 214, 214); */
+    font-size: 16px;   
+    font-weight: 500; 
+    /* position: absolute;
+    top: 0;
+    right: 0;
+    left: 0; */
+    background-color: rgb(221, 232, 237);
+}
+.title{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(44, 44, 90);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+header img{
+    height: 40px;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+}
+
+.nav-home,
+.nav-aboutus,
+.nav-projects,
+.nav-contact,
+.nav-service{
+    padding: 12px;
+    margin: 10px;
+}
+.nav-home:hover,
+.nav-aboutus:hover,
+.nav-projects:hover,
+.nav-contact:hover,
+.nav-service:hover{
+    cursor: pointer;
+    color: rgb(82, 82, 207);
+}
+.user-input{
+    display: flex;
+    align-items: center;
+}
+.log-in-icon{
+   font-size: 22px;
+   padding-top: 5px;
+}
+.log-in-button,
+.sign-in-button{
+    height: 40px;
+    width: 82px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 16px; 
+    cursor: pointer;
+    background-color:rgb(44, 44, 90);
+    color: white; 
+    transition-property: background-color, color; 
+    transition-duration: 0.15s;
+}
+.sign-in-button:hover,
+.log-in-button:hover{
+    color: rgb(44, 44, 90);
+    background-color: white; 
+       
+}
+.main-section{
+    background-image: url("images/construction-image2.jpg");
+    background-size:cover;
+    height: 600px;
+    
+}
+.info-box{
+    height: 350px;
+    width: 300px;
+    color: rgb(221, 232, 237);
+    background-color: rgba(44, 44, 90,0.91);
+    line-height: 25px;
+    padding: 6px 12px;
+    position: relative;
+    top: 375px;
+    left: 200px;
+    /* margin-left: 200px; */
+    
+}
+.info-box p{
+    font-size: 18px;
+}
+.contact-us-box{
+    background-color: white;
+    margin-top: 200px;
+    height: 350px;
+    
+}
+.contact-us-box h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.contact-us-info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.address-box{
+    width: 16%;
+}
+.input-box{
+    width: 24%;
+    line-height: 24px;
+}
+.input-box input{
+    width: 94%;
+    height: 27px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.contact-us-box p{
+    color: gray;
+}
+.contact-us-box button{
+    height: 40px;
+    width: 90px;
+    border: none;
+    font-size: 16px; 
+    cursor: pointer;
+    background-color:rgb(44, 44, 90);
+    color: white;
+    transition-property: background-color; 
+    transition-duration: 0.15ms;
+}
+.contact-us-box button:hover{
+    background-color: rgb(77, 77, 125);
+}
